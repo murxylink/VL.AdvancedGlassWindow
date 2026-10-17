@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>VL.AdvancedGlassWindow</AssemblyName>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>1591</NoWarn>
+    <RootNamespace>VL.AdvancedGlassWindow</RootNamespace>
+    <PackageId>VL.AdvancedGlassWindow</PackageId>
+    <Version>1.0.0</Version>
+    <GammaDirectory Condition="'$(GammaDirectory)' == ''">C:\Program Files\vvvv\vvvv_gamma_7.4-win-x64</GammaDirectory>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="VL.Core"><HintPath>$(GammaDirectory)\VL.Core.dll</HintPath></Reference>
+    <Reference Include="Stride.Games"><HintPath>$(GammaDirectory)\packs\dependencies\Stride.Games.dll</HintPath></Reference>
+    <Reference Include="Stride"><HintPath>$(GammaDirectory)\packs\dependencies\Stride.dll</HintPath></Reference>
+    <Reference Include="Stride.Graphics"><HintPath>$(GammaDirectory)\packs\dependencies\Stride.Graphics.dll</HintPath></Reference>
+    <Reference Include="Stride.Core"><HintPath>$(GammaDirectory)\Stride.Core.dll</HintPath></Reference>
+    <Reference Include="Stride.Core.Mathematics"><HintPath>$(GammaDirectory)\Stride.Core.Mathematics.dll</HintPath></Reference>
+    <Reference Include="VL.Stride.Runtime"><HintPath>$(GammaDirectory)\packs\dependencies\VL.Stride.Runtime.dll</HintPath></Reference>
+    <Reference Include="SharpDX"><HintPath>$(GammaDirectory)\packs\dependencies\SharpDX.dll</HintPath></Reference>
+    <Reference Include="SharpDX.DXGI"><HintPath>$(GammaDirectory)\packs\dependencies\SharpDX.DXGI.dll</HintPath></Reference>
+    <Reference Include="SharpDX.Direct3D11"><HintPath>$(GammaDirectory)\packs\dependencies\SharpDX.Direct3D11.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>
