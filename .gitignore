@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+dist/
+lib/
+.dotnet/
+*.user
+*.log
+RELEASE-PREPARATION.md

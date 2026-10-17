@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>VL.AdvancedGlassWindow</id>
+    <version>1.0.0</version>
+    <title>VL.AdvancedGlassWindow</title>
+    <authors>murxylink; torinos-yt</authors>
+    <description>Transparent Stride and Skia windows for vvvv gamma 7.4. Includes SceneWindow (Glass), RenderWindow (Glass), mouse click-through controls and examples.</description>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/murxylink/VL.AdvancedGlassWindow</projectUrl>
+    <repository type="git" url="https://github.com/murxylink/VL.AdvancedGlassWindow.git" />
+    <tags>vvvv VL gamma Stride Skia window transparency Windows</tags>
+    <releaseNotes>Initial VL.AdvancedGlassWindow release for vvvv gamma 7.4.</releaseNotes>
+
+    <dependencies><group targetFramework="net8.0" /></dependencies>
+  </metadata>
+  <files>
+    <file src="VL.AdvancedGlassWindow.vl" target="" />
+    <file src="src/bin/Release/net8.0/VL.AdvancedGlassWindow.dll" target="lib/net8.0" />
+    <file src="README.md" target="" />
+    <file src="help/HowTo Show Transparent Window.vl" target="help" />
+    <file src="help/HowTo Show Transparent RenderWindow.vl" target="help" />
+    <file src="help/HowTo Show Transparent Skia Window.vl" target="help" />
+  </files>
+</package>
